@@ -1,0 +1,72 @@
+/* ==============================
+   GLOBAL
+================================ */
+
+body {
+    background-color: #f8f9fa;
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 600;
+}
+
+/* ==============================
+   LAYOUT
+================================ */
+
+.wrapper {
+    min-height: 100vh;
+}
+
+.content {
+    padding: 20px;
+}
+
+/* ==============================
+   CARD
+================================ */
+
+.card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.card-header {
+    background-color: #fff;
+    font-weight: 600;
+}
+
+/* ==============================
+   BUTTON
+================================ */
+
+.btn {
+    border-radius: 6px;
+}
+
+/* ==============================
+   ALERT
+================================ */
+
+.alert {
+    border-radius: 6px;
+}
+
+/* ==============================
+   FOOTER
+================================ */
+
+.footer {
+    text-align: center;
+    font-size: 12px;
+    color: #777;
+    padding: 10px;
+}

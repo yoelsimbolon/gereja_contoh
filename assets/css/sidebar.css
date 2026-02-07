@@ -1,0 +1,18 @@
+.sidebar {
+    width: 230px;
+    background-color: #212529;
+    color: #fff;
+    min-height: 100vh;
+}
+
+.sidebar a {
+    color: #adb5bd;
+    padding: 12px 20px;
+    display: block;
+}
+
+.sidebar a:hover,
+.sidebar a.active {
+    background-color: #343a40;
+    color: #fff;
+}

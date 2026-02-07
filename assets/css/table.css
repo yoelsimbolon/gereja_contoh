@@ -1,0 +1,82 @@
+/* ==============================
+   TABLE GLOBAL
+================================ */
+
+.table {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    font-size: 13px;
+}
+
+.table th {
+    background-color: #f1f3f5;
+    font-weight: 600;
+    color: #333;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+/* ==============================
+   TABLE HOVER & STRIPED
+================================ */
+
+.table-hover tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #fafafa;
+}
+
+/* ==============================
+   TABLE ACTION BUTTON
+================================ */
+
+.table .btn {
+    padding: 3px 8px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+/* ==============================
+   TABLE RESPONSIVE FIX
+================================ */
+
+.table-responsive {
+    border-radius: 8px;
+}
+
+/* ==============================
+   STATUS BADGE
+================================ */
+
+.badge {
+    font-size: 11px;
+    padding: 5px 8px;
+    border-radius: 6px;
+}
+
+/* ==============================
+   EMPTY DATA
+================================ */
+
+.table-empty {
+    text-align: center;
+    padding: 20px;
+    color: #888;
+    font-style: italic;
+}
+
+/* ==============================
+   SMALL TEXT
+================================ */
+
+.text-muted-small {
+    font-size: 12px;
+    color: #6c757d;
+}
